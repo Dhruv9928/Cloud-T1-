@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud Computing</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+            margin: 0;
+            padding: 40px 20px;
+            color: #2c3e50;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: #ffffffcc;
+            padding: 30px 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+            backdrop-filter: blur(10px);
+            border: 1px solid #fda085;
+        }
+        h1 {
+            color: #d35400;
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 25px;
+            text-align: center;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #e67e22;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #f39c12;
+            padding-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            color: #34495e;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 25px;
+            color: #34495e;
+        }
+        li {
+            margin-bottom: 12px;
+            transition: color 0.4s ease, transform 0.3s ease;
+        }
+        li:hover {
+            color: #e67e22;
+            cursor: default;
+            transform: scale(1.05);
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 10px;
+            }
+            .container {
+                padding: 20px 15px;
+            }
+            h1 {
+                font-size: 2.4rem;
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+            p, ul {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Introduction to Cloud Computing</h1>
+        <p>Cloud computing is the delivery of computing services over the internet. These services include storage, servers, databases, networking, software, and more.</p>
+
+        <div class="service">
+            <h2>Amazon S3 - Simple Storage Service</h2>
+            <p>Amazon S3 is an object storage service from AWS. It is used to store and retrieve any amount of data from anywhere on the web.</p>
+            <ul>
+                <li>Scalable storage</li>
+                <li>High durability</li>
+                <li>Cost-effective</li>
+                <li>Secure and reliable</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
